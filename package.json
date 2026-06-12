@@ -1,0 +1,32 @@
+{
+  "name": "three-way-match-engine",
+  "version": "1.0.0",
+  "description": "Three-Way Match Engine for PO, GRN, and Invoice",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "three-way match",
+    "purchase order",
+    "goods receipt",
+    "invoice",
+    "gemini api",
+    "mongodb",
+    "express"
+  ],
+  "author": "Finifi Backend Assignment",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.0",
+    "multer": "^1.4.5-lts.1",
+    "@google/generative-ai": "^0.14.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}

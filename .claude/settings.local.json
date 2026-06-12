@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm init *)",
+      "Bash(npm install *)",
+      "Bash(mkdir -p src/utils)",
+      "Bash(EOF)",
+      "Bash(node *)",
+      "Bash(curl -s http://localhost:3000/)",
+      "Bash(kill %1 *)",
+      "Bash(brew install *)",
+      "Bash(brew search *)",
+      "Bash(brew tap *)",
+      "Bash(sudo find /usr -name mongod -type f)",
+      "Bash(jobs *)",
+      "Bash(curl *)",
+      "Bash(brew list *)",
+      "Bash(sudo apt-key add -)",
+      "Bash(docker run *)",
+      "Bash(mongo --version)",
+      "Bash(nc -z localhost 27017)",
+      "Bash(npm start *)",
+      "Bash(awk 'NR==154{$0=\\\\\"    if \\(error.message && \\(error.message.includes\\(\\\\\\\\\\\\\"API_KEY_INVALID\\\\\\\\\\\\\"\\) || error.message.includes\\(\\\\\\\\\\\\\"API key not valid\\\\\\\\\\\\\"\\)\\)\\) {\\\\\"}1' src/utils/geminiService.js)",
+      "Bash(mv /tmp/geminiService.js src/utils/geminiService.js)",
+      "Bash(lsof -ti:3000)",
+      "Bash(xargs kill -9)"
+    ]
+  }
+}
