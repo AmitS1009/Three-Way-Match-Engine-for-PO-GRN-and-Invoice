@@ -121,37 +121,6 @@ The system handles out-of-order uploads by:
 - No caching layer for frequent match queries
 - No advanced OCR preprocessing for poor quality scans
 
-## What I Would Improve With More Time
-
-1. **Enhanced Document Processing**:
-   - Better handling of various file formats (PDF, DOC, images)
-   - Preprocessing to improve OCR accuracy
-   - Fallback mechanisms for when Gemini fails to extract data
-
-2. **Performance Optimizations**:
-   - Database indexing on frequently queried fields
-   - Caching layer for match results
-   - Batch processing capabilities
-   - Pagination for large result sets
-
-3. **Robustness Features**:
-   - Comprehensive file validation (types, sizes, virus scanning)
-   - Retry mechanisms for external API calls
-   - Better error reporting and logging
-   - Unit and integration tests
-
-4. **User Experience**:
-   - API documentation with Swagger/OpenAPI
-   - Webhook notifications for match completion
-   - Bulk upload capabilities
-   - Audit trail for document changes
-
-5. **Deployment Ready**:
-   - Docker containerization
-   - Kubernetes deployment configurations
-   - CI/CD pipeline integration
-   - Environment-specific configurations
-
 ## API Usage Examples
 
 ### Upload a Document
